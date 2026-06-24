@@ -1,0 +1,40 @@
+{
+  "timestamp": "2026-06-24T23:03:12.998317",
+  "results": {
+    "no_nulls": {
+      "passed": true,
+      "severity": "error",
+      "details": "ok"
+    },
+    "labels_in_set": {
+      "passed": true,
+      "severity": "error",
+      "details": "ok"
+    },
+    "min_word_count": {
+      "passed": true,
+      "severity": "warning",
+      "details": "min=12"
+    },
+    "max_word_count": {
+      "passed": true,
+      "severity": "warning",
+      "details": "max=1005"
+    },
+    "no_duplicates": {
+      "passed": true,
+      "severity": "warning",
+      "details": "dups=0"
+    },
+    "class_balance": {
+      "passed": true,
+      "severity": "warning",
+      "details": "ratio ok"
+    },
+    "no_html_tags": {
+      "passed": false,
+      "severity": "warning",
+      "details": "html znaleziony"
+    }
+  }
+}
